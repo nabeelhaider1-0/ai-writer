@@ -1,269 +1,264 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --primaryWhite: #ffffff;
-    --primaryWhiteHover: #ffffffd3;
-    --secondaryBlue: #0A7BFF;
-    --secondaryBlueHover: #0a7cffdd;
-    --black: #000000;
+  --primaryWhite: #ffffff;
+  --primaryWhiteHover: #ffffffd3;
+  --secondaryBlue: #0a7bff;
+  --secondaryBlueHover: #0a7cffdd;
+  --black: #000000;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
-    color: var(--primaryWhite);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  color: var(--primaryWhite);
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 html {
-    scrollbar-width: thin;
-    scrollbar-color: var(--secondaryBlueHover) var(--black);
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondaryBlueHover) var(--black);
 }
 
 .section1 {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Navbar Section  */
 
 .navbar {
-    width: 100%;
-    background-color: #08080A;
-    padding: 0.5vw 4.3vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 0.15vw solid #6B6B7873;
+  width: 100%;
+  background-color: #08080a;
+  padding: 0.5vw 4.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.15vw solid #6b6b7873;
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    color: var(--primaryWhite);
+  display: flex;
+  align-items: center;
+  color: var(--primaryWhite);
 }
 
 .logo img {
-    width: 4vw;
-    height: auto;
-    margin-right: 0.4vw;
-    margin-left: 0.5vw;
+  width: 4vw;
+  height: auto;
+  margin-right: 0.4vw;
+  margin-left: 0.5vw;
 }
 
 .logo span {
-    font-family: Raleway;
-    font-size: 2vw;
-    font-weight: 700;
-    line-height: 2.5vw;
-    letter-spacing: -2.4000000953674316px;
-    text-align: left;
+  font-family: Raleway;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+  letter-spacing: -2.4000000953674316px;
+  text-align: left;
 }
 
 .nav-links {
-    display: flex;
-    gap: 2.5vw;
-    list-style: none;
+  display: flex;
+  gap: 2.5vw;
+  list-style: none;
 }
 
 #Mobile {
-    display: none;
+  display: none;
 }
 
 .nav-links li {
-    position: relative;
+  position: relative;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-family: Poppins;
-    font-size: 1.2vw;
-    font-weight: 400;
-    line-height: 1.4vw;
-    text-align: left;
-    transition: all 0.3s ease-in-out;
-
+  text-decoration: none;
+  color: white;
+  font-family: Poppins;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
-    color: var(--primaryWhiteHover);
+  color: var(--primaryWhiteHover);
 }
 
 .nav-links span {
-    font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .get-app-btn {
-    padding: 0.5vw 1.5vw;
-    background-color: var(--secondaryBlue);
-    color: var(--primaryWhite);
-    font-size: 1.2vw;
-    border: none;
-    border-radius: 1.5vw;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    font-family: Poppins;
-    font-weight: 400;
+  padding: 0.5vw 1.5vw;
+  background-color: var(--secondaryBlue);
+  color: var(--primaryWhite);
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 1.5vw;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: Poppins;
+  font-weight: 400;
 }
 
 .get-app-btn:hover {
-    background-color: var(--secondaryBlueHover);
+  background-color: var(--secondaryBlueHover);
 }
 
 .get-app-btn1 {
-    padding: 0.5vw 1.5vw;
-    background-color: var(--secondaryBlue);
-    color: white;
-    font-size: 1.2vw;
-    border: none;
-    border-radius: 1.5vw;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    font-family: Poppins;
-    font-weight: 400;
+  padding: 0.5vw 1.5vw;
+  background-color: var(--secondaryBlue);
+  color: white;
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 1.5vw;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: Poppins;
+  font-weight: 400;
 }
 
 .get-app-btn1:hover {
-    background-color: var(--secondaryBlueHover);
+  background-color: var(--secondaryBlueHover);
 }
 
 /* Mobile view: initially hide the nav-links and show the menu icon */
 .menu-toggle {
-    display: none;
-    font-size: 3vh;
-    color: white;
-    cursor: pointer;
-    margin-right: 1vh;
+  display: none;
+  font-size: 3vh;
+  color: white;
+  cursor: pointer;
+  margin-right: 1vh;
 }
 
 /* Dropdown styling */
 .dropdown {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--black);
-    padding: 1vw 0.5vw;
-    list-style: none;
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease, max-height 0.3s ease;
-    max-height: 0;
-    overflow: hidden;
-    width: 150%;
-    border-radius: 0.5vw;
-    margin-top: 1vw;
-    z-index: 2;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--black);
+  padding: 1vw 0.5vw;
+  list-style: none;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  width: 150%;
+  border-radius: 0.5vw;
+  margin-top: 1vw;
+  z-index: 2;
 }
 
 .dropdown-menu li {
-    margin-bottom: 1vw;
-    text-align: center;
+  margin-bottom: 1vw;
+  text-align: center;
 }
 
 .dropdown-menu li:last-child {
-    margin-bottom: 0vw;
+  margin-bottom: 0vw;
 }
 
 .dropdown-menu a {
-    color: var(--primaryWhite);
-    font-size: 1.1vw;
-    text-decoration: none;
+  color: var(--primaryWhite);
+  font-size: 1.1vw;
+  text-decoration: none;
 }
 
 .dropdown-menu a:hover {
-    color: var(--primaryWhiteHover);
+  color: var(--primaryWhiteHover);
 }
 
 /* When dropdown is active, show it with smooth transitions */
 .dropdown.open .dropdown-menu {
-    display: block;
-    opacity: 1;
-    max-height: 15vw;
-    /* Adjust this depending on the number of dropdown items */
+  display: block;
+  opacity: 1;
+  max-height: 15vw;
+  /* Adjust this depending on the number of dropdown items */
 }
 
 /* Transition only works when dropdown is open */
 .dropdown.open .dropdown-menu {
-    transition: opacity 0.3s ease, max-height 0.5s ease;
+  transition: opacity 0.3s ease, max-height 0.5s ease;
 }
 
 /* Arrow rotation with transition */
 .dropdown a span i {
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Rotate the arrow when dropdown is open */
 .dropdown.open a span i {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 /* When nav is open in mobile view */
 .nav-open .nav-links {
-    display: flex;
+  display: flex;
 }
 
 .nav-open .menu-toggle i {
-    content: "\f00d";
-    /* FontAwesome cross icon */
+  content: "\f00d";
+  /* FontAwesome cross icon */
 }
-
 
 /* Hero Section   */
 
 .topLandingEssayWriter {
-    width: 100%;
-    height: auto;
-    background-image: url(./assets/images/Section1BG.png);
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  background-image: url(.assets/images/Section1BG.png);
+  background-size: cover;
 }
 
 .topLandingEssayWriterMain {
-    width: 90%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    padding-top: 5vw;
-    padding-bottom: 3vw;
-    position: relative;
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding-top: 5vw;
+  padding-bottom: 3vw;
+  position: relative;
 }
 
 .topLandingEssayWriterMainLeft {
-    width: 50%;
-
+  width: 50%;
 }
 
 .topLandingEssayWriterMainLeft h1 {
-    font-family: Poppins;
-    font-size: 4.5vw;
-    font-weight: 700;
-    line-height: 5.1vw;
-    letter-spacing: -0.24000000953674316vw;
-    text-align: left;
+  font-family: Poppins;
+  font-size: 4.5vw;
+  font-weight: 700;
+  line-height: 5.1vw;
+  letter-spacing: -0.24000000953674316vw;
+  text-align: left;
 }
 
 .topLandingEssayWriterMainLeft h1 span {
-    color: var(--secondaryBlue);
-
+  color: var(--secondaryBlue);
 }
 
 /* Black Friday Discounts */
@@ -362,1665 +357,1617 @@ html {
     z-index: 8;
 } */
 
-
 /* Friday Code Ends here  */
 
 .topLandingEssayWriterMain .off50 {
-    position: absolute;
-    width: 18vw;
-    left: 35%;
-    top: 8.8%;
-    height: auto;
-    z-index: 1;
+  position: absolute;
+  width: 18vw;
+  left: 35%;
+  top: 8.8%;
+  height: auto;
+  z-index: 1;
 }
 
 .downloadOurApps {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    margin-top: 1.7vw;
-    margin-left: 0.3vw;
-    position: relative;
-    z-index: 8;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 1.7vw;
+  margin-left: 0.3vw;
+  position: relative;
+  z-index: 8;
 }
 
 .appStore img {
-    width: 12.5vw;
-    height: auto;
+  width: 12.5vw;
+  height: auto;
 }
 
 .playStore img {
-    width: 12.5vw;
-    height: auto;
+  width: 12.5vw;
+  height: auto;
 }
 
 .millionDownloads img {
-    width: 31vw;
-    height: auto;
-    margin-top: 2vw;
-    position: relative;
-    z-index: 8;
+  width: 31vw;
+  height: auto;
+  margin-top: 2vw;
+  position: relative;
+  z-index: 8;
 }
 
 .topLandingEssayWriterMainRight {
-    width: 50%;
+  width: 50%;
 }
 
 .appShowCase img {
-    width: 72%;
-    height: auto;
-    margin-left: 28%;
-    position: relative;
-    z-index: 8;
+  width: 72%;
+  height: auto;
+  margin-left: 28%;
+  position: relative;
+  z-index: 8;
 }
-
-
 
 /* About Section  */
 
 .essayWriterAbout {
-    width: 100%;
-    height: auto;
-    background-color: var(--black);
+  width: 100%;
+  height: auto;
+  background-color: var(--black);
 }
 
 .essayWriterAboutMain {
-    width: 90%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    padding-top: 2vw;
-    align-items: center;
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding-top: 2vw;
+  align-items: center;
 }
 
 .essayWriterAboutLeft {
-    width: 50%;
+  width: 50%;
 }
 
 .essayWriterAboutLeft img {
-    width: 60%;
-    height: auto;
-    margin-left: 12%;
+  width: 60%;
+  height: auto;
+  margin-left: 12%;
 }
 
 .essayWriterAboutRight {
-    width: 56%;
+  width: 56%;
 }
 
 .essayWriterAboutRight h4 {
-    font-family: Poppins;
-    font-size: 2.8vw;
-    font-weight: 600;
-    line-height: 3.5vw;
-    letter-spacing: 0.05vw;
-    text-align: left;
+  font-family: Poppins;
+  font-size: 2.8vw;
+  font-weight: 600;
+  line-height: 3.5vw;
+  letter-spacing: 0.05vw;
+  text-align: left;
 }
 
 .essayWriterAboutRight p {
-    font-family: Poppins;
-    font-size: 1.3vw;
-    font-weight: 500;
-    line-height: 2.4vw;
-    text-align: left;
-    margin-top: 2vw;
-    padding-right: 2.6vw;
-
+  font-family: Poppins;
+  font-size: 1.3vw;
+  font-weight: 500;
+  line-height: 2.4vw;
+  text-align: left;
+  margin-top: 2vw;
+  padding-right: 2.6vw;
 }
 
 .essayWriterAboutBottom {
-    width: 100%;
-    height: auto;
-    background-image: url(/assets/images/abountBottomBG.png);
-    padding: 5vw 0vw;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  background-image: url(assets/images/abountBottomBG.png);
+  padding: 5vw 0vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Tabs Section  */
 
 .essayWriterTabsSection {
-    width: 100%;
-    height: auto;
-    background-image: url(/assets/images/TabsBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  background-image: url(assets/images/TabsBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .essayessayWriterTabsMain {
-    width: 90%;
-    height: auto;
-    margin: auto;
-    padding-top: 5vw;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 5vw;
 }
 
 .essayTabsHeading {
-    font-family: Poppins;
-    font-size: 3.3vw;
-    font-weight: 600;
-    padding: 2vw 1vw;
-    border-radius: 1.2vw;
-    text-align: center;
-    background-color: #494949;
+  font-family: Poppins;
+  font-size: 3.3vw;
+  font-weight: 600;
+  padding: 2vw 1vw;
+  border-radius: 1.2vw;
+  text-align: center;
+  background-color: #494949;
 }
 
 .essayTabsHeading span {
-    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 0%, #4F8EF5 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 0%, #4f8ef5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .essayTabsContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3vw;
-    gap: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vw;
+  gap: 2vw;
 }
 
 .essayTab {
-    font-family: Poppins;
-    font-size: 1.6vw;
-    font-weight: 600;
-    line-height: 1.7vw;
-    text-align: left;
-    padding: 1vw 2vw;
-    background-color: var(--black);
-    color: var(--primaryWhite);
-    border: 0.2vw solid var(--primaryWhite);
-    border-radius: 1.9vw;
-    cursor: pointer;
+  font-family: Poppins;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 1.7vw;
+  text-align: left;
+  padding: 1vw 2vw;
+  background-color: var(--black);
+  color: var(--primaryWhite);
+  border: 0.2vw solid var(--primaryWhite);
+  border-radius: 1.9vw;
+  cursor: pointer;
 }
 
 .essayTab.active {
-    background-color: var(--primaryWhite);
-    color: var(--black);
-    border: 0.2vw solid var(--black);
+  background-color: var(--primaryWhite);
+  color: var(--black);
+  border: 0.2vw solid var(--black);
 }
 
 .essayContent {
-    margin-top: 2vw;
-    font-size: 1.2vw;
-    font-family: Poppins;
-    opacity: 0;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    position: absolute;
-    display: none;
-    opacity: 0;
-    transition: opacity 0.5s ease;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  font-family: Poppins;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .essayContent.active {
-    opacity: 1;
-    position: relative;
+  opacity: 1;
+  position: relative;
 }
 
 .essayTabsCardsContainer {
-    padding-top: 10vw;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    gap: 4%;
+  padding-top: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  gap: 4%;
 }
 
 .essayTabsCards {
-    width: 30%;
-    height: auto;
-    background-color: #32323391;
-    border-radius: 1.5vw;
-    padding: 2vw 1vw;
-    padding-top: 6vw;
-    position: relative;
-    margin-bottom: 7.5vw;
+  width: 30%;
+  height: auto;
+  background-color: #32323391;
+  border-radius: 1.5vw;
+  padding: 2vw 1vw;
+  padding-top: 6vw;
+  position: relative;
+  margin-bottom: 7.5vw;
 }
 
 .essayTabsCards img {
-    position: absolute;
-    width: 35%;
-    top: -30%;
-    left: 34%;
+  position: absolute;
+  width: 35%;
+  top: -30%;
+  left: 34%;
 }
 
 .essayTabsCards h3 {
-    font-family: Poppins;
-    font-size: 1.65vw;
-    font-weight: 600;
-    line-height: 1.8vw;
-    margin-left: 2.6vw;
+  font-family: Poppins;
+  font-size: 1.65vw;
+  font-weight: 600;
+  line-height: 1.8vw;
+  margin-left: 2.6vw;
 }
 
 .essayTabsCards ul {
-    margin-left: 3.7vw;
-    margin-top: 1vw;
-    height: 16vh;
+  margin-left: 3.7vw;
+  margin-top: 1vw;
+  height: 16vh;
 }
 
 .essayTabsCards ul li {
-    font-family: Poppins;
-    font-size: 1.2vw;
-    font-weight: 400;
-    line-height: 1.8vw;
-    text-align: left;
-
+  font-family: Poppins;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 1.8vw;
+  text-align: left;
 }
 
 /* User Review Section  */
 
 .essayWriterUserReviewSection {
-    width: 100%;
-    height: auto;
-    background-image: url(/assets/images/userReviewBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  background-image: url(assets/images/userReviewBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .essayWriterUserReviewMain {
-    width: 90%;
-    height: auto;
-    margin: auto;
-    padding-top: 0vw;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 0vw;
 }
 
 .essayWriterUserReviewMainHead {
-    text-align: center;
+  text-align: center;
 }
 
 .essayWriterUserReviewMainHead p {
-    font-family: Poppins;
-    font-size: 2.2vw;
-    font-weight: 500;
-    line-height: 1.5vw;
-    letter-spacing: -0.07000000029802322px;
+  font-family: Poppins;
+  font-size: 2.2vw;
+  font-weight: 500;
+  line-height: 1.5vw;
+  letter-spacing: -0.07000000029802322px;
 }
 
 .essayWriterUserReviewMainHead h2 {
-    font-family: Poppins;
-    font-size: 3.2vw;
-    font-weight: 600;
-    line-height: 2vw;
-    letter-spacing: 0.1vw;
-    margin-top: 3.5vw;
+  font-family: Poppins;
+  font-size: 3.2vw;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.1vw;
+  margin-top: 3.5vw;
 }
 
 .essayWriterUserReviewCards {
-    padding-top: 8vw;
+  padding-top: 8vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  gap: 4%;
+}
+
+.UserReviewCard {
+  width: 30%;
+  height: auto;
+  background-color: #32323391;
+  border-radius: 1vw;
+  padding: 2vw 1vw;
+  padding-bottom: 1vw;
+  position: relative;
+  margin-bottom: 1.9vw;
+}
+
+.UserReviewCard img {
+  display: flex;
+  justify-content: flex-end;
+  width: 32%;
+  margin-left: 68%;
+}
+
+.UserReviewCard p {
+  font-family: Poppins;
+  font-size: 1.04vw;
+  font-weight: 600;
+  line-height: 1.6vw;
+  text-align: left;
+  margin-top: 0.5vw;
+}
+
+.userReviewSecondPara {
+  font-weight: 500 !important;
+  margin-top: 0.5vw;
+  height: 22vh;
+}
+
+.borderBottomUser {
+  border-bottom: 0.15vw solid#F0F2F6;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.dateAndDownload {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateAndDownload h5 {
+  font-family: Poppins;
+  font-size: 0.95vw;
+  font-weight: 400;
+  line-height: 1.7vw;
+  text-align: left;
+  color: #ffffffba;
+}
+
+/* FAQS Section  */
+
+.emailEssayWriterMain {
+  background-color: #18181d;
+  width: 100%;
+  height: auto;
+}
+
+.emailEssayWriterHead {
+  text-align: center;
+  padding: 4vw 0vw;
+  padding-bottom: 6vw;
+}
+
+.emailEssayWriterHead h2 {
+  font-size: 3.2vw;
+  font-weight: 600;
+  line-height: 4vw;
+  width: 50%;
+  margin: auto;
+}
+
+.emailEssayWriterMainAccordian {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5vw;
+}
+
+.accordion {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 0.1vw solid #7a7e82;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0vw;
+  padding-left: 1.2vw;
+  cursor: pointer;
+}
+
+.accordion-header h3 {
+  font-size: 1.5vw;
+  font-weight: 600;
+  line-height: 2vw;
+  text-align: left;
+}
+
+.accordion-header i {
+  font-size: 1.5vw;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 0;
+  overflow: hidden;
+  padding: 0 2vw;
+  font-size: 1.13vw;
+  transition: height 0.5s ease, padding 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+  height: auto;
+  padding: 1vw 1.2vw;
+}
+
+.accordion-item.active .accordion-header i {
+  transform: rotate(-180deg);
+}
+
+/* Download Our Apps  */
+.essayWriterDownloadApp {
+  width: 100%;
+  height: auto;
+  background-color: #1e1f24;
+  padding-bottom: 5vw;
+}
+
+.essayWriterDownloadBG {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background-image: url(assets/images/downloadAPPBG.png);
+  border-radius: 1vw;
+  background-size: cover;
+  position: relative;
+}
+
+.essayWriterDownloadBG h2 {
+  font-family: Poppins;
+  font-size: 3.4vw;
+  font-weight: 600;
+  line-height: 4vw;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 3.5vw;
+}
+
+.downloadPicMobile img {
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 6%;
+}
+
+.qrCodeIos {
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.qrAndroid h1 {
+  font-family: Poppins;
+  font-size: 1.1vw;
+  font-weight: 600;
+  line-height: 2vw;
+  text-align: left;
+}
+
+.qrAndroid img {
+  width: 13vw;
+  height: auto;
+  margin-top: 0.7vw;
+}
+
+/* Footer Section  */
+
+.footerMain {
+  background-color: #040404;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.2vw;
+}
+
+.footerMainContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 1vw;
+}
+
+.footerLogo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo img {
+  width: 50%;
+}
+
+.footerLogo span {
+  font-family: Raleway;
+  font-size: 2.1vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+  letter-spacing: -2.4000000953674316px;
+  text-align: left;
+}
+
+.footerPoints {
+  display: flex;
+  gap: 5vw;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+
+.footerPoints p {
+  font-family: Poppins;
+  font-size: 1.04vw;
+  font-weight: 400;
+  line-height: 1.8vw;
+  letter-spacing: -0.06vw;
+  text-align: center;
+}
+
+.footerPoints p a {
+  text-decoration: none;
+}
+
+.footerTermsAndPrivacy {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-left: 8.5vw;
+}
+
+.footerTermsAndPrivacy p {
+  font-family: Poppins;
+  font-size: 1.04vw;
+  font-weight: 400;
+  line-height: 1.8vw;
+  letter-spacing: -0.06vw;
+  text-align: center;
+}
+
+.footerTermsAndPrivacy i {
+  font-size: 0.2vw;
+}
+
+.footerTermsAndPrivacy p a {
+  text-decoration: none;
+  margin-left: 0vw;
+}
+
+.footerBorder {
+  border-bottom: 0.15vw solid #adadad63;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.5vw;
+}
+
+.footerBottom {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 1.4vw;
+  align-items: center;
+}
+
+.footercopyrights p {
+  font-family: Poppins;
+  font-size: 0.95vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  text-align: left;
+}
+
+.footerContact {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.footerContact p {
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  margin: 0;
+}
+
+.footerContact p a {
+  text-decoration: none;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+}
+
+.socialIcons a {
+  color: white;
+  font-size: 1.4vw;
+  text-decoration: none;
+}
+
+.mySwiper1 {
+  position: absolute !important;
+  top: 58%;
+  left: 24%;
+  z-index: 1;
+  width: 50% !important;
+}
+
+.mySwiper1 .swiper-slide {
+  transition: all 0.5s ease;
+  opacity: 0.1;
+  box-shadow: none;
+  /* width: 108% !important; */
+}
+
+.mySwiper1 .swiper-slide-active {
+  opacity: 1;
+}
+
+.UserReviewCard1 {
+  width: 100%;
+  height: auto;
+  background-color: #19191991;
+  border-radius: 1vw;
+  padding: 1vw 1vw;
+  position: relative;
+  margin-bottom: 1.9vw;
+}
+
+.UserReviewCard1 img {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+  margin-left: 75%;
+}
+
+.UserReviewCard1 p {
+  font-family: Poppins;
+  font-size: 0.55vw;
+  font-weight: 600;
+  line-height: 1vw;
+  text-align: left;
+}
+
+.userReviewSecondPara1 {
+  font-weight: 500 !important;
+  margin-top: 0.5vw;
+  height: 16vh;
+}
+
+.borderBottomUser1 {
+  border-bottom: 0.15vw solid#F0F2F6;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.dateAndDownload1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateAndDownload1 h5 {
+  font-family: Poppins;
+  font-size: 0.5vw;
+  font-weight: 400;
+  line-height: 1.7vw;
+  text-align: left;
+  color: #ffffffba;
+}
+
+/* Privacy Page And Terms page */
+
+.HeroPrivacy {
+  background: url("assets/images/privacyTermsBG.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding-top: 0vw;
+}
+
+.privacyPolicy {
+  width: 90%;
+  margin: auto;
+  padding-top: 8vw;
+}
+
+.privacyPolicy h2 {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 3.7vw;
+  text-align: center;
+}
+
+.privacyPolicyMain {
+  padding-top: 5vw;
+  padding-bottom: 3vw;
+}
+
+.privacyPolicyMain h5 {
+  font-size: 1.58vw;
+  font-weight: 500;
+  line-height: 2vw;
+  text-align: left;
+  margin-bottom: 2vw;
+}
+
+.privacyPolicyMain h6 {
+  font-size: 1.32vw;
+  font-weight: 500;
+  line-height: 2vw;
+  text-align: left;
+  margin-bottom: 2vw;
+}
+
+.privacyPolicyMain p {
+  font-size: 1.08vw;
+  font-weight: 400;
+  line-height: 2vw;
+  text-align: left;
+  margin-bottom: 2vw;
+}
+
+.privacyPolicyMain p span {
+  color: aqua;
+}
+
+/* Hide nav links and button in mobile view */
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    padding: 1vh 1.5vh;
+    padding-bottom: 0.5vh;
+    border-bottom: 0.15vh solid #6b6b7873;
+  }
+
+  .navbar-container {
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    color: var(--primaryWhite);
+  }
+
+  .logo img {
+    width: 6vh;
+    height: auto;
+    margin-left: 0.5vh;
+  }
+
+  .logo span {
+    font-size: 2vh;
+    font-weight: 600;
+    line-height: 0.1vh;
+    letter-spacing: 0.03vh;
+    text-align: left;
+    margin-bottom: 0.5vh;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 7.5vh;
+    left: 3vh;
+    background-color: black;
+    width: 90%;
+    height: auto;
+    padding: 2vh;
+    border-radius: 1vh;
+    z-index: 66;
+    gap: 0.7vh;
+    text-align: center;
+  }
+
+  .get-app-btn1 {
+    padding: 0.5vh 0.7vh;
+    font-size: 1.2vh;
+    border-radius: 0.5vh;
+  }
+
+  .nav-links li {
+    margin-bottom: 3vw;
+  }
+
+  .nav-links a {
+    font-size: 1.5vh;
+    font-weight: 400;
+    line-height: 1.4vh;
+    text-align: left;
+  }
+
+  .nav-links span {
+    font-size: 1.2vh;
+  }
+
+  .get-app-btn {
+    display: none;
+  }
+
+  #Mobile {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Dropdown styling */
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    padding: 1vh 0.5vh;
+    background-color: #414141;
+    opacity: 0;
+    max-height: 0;
+    width: 60%;
+    border-radius: 0.5vh;
+    margin-top: 1vh;
+    z-index: 2;
+  }
+
+  .dropdown-menu li {
+    margin-bottom: 1vh;
+    text-align: center;
+  }
+
+  .dropdown-menu li:last-child {
+    margin-bottom: 0vh;
+  }
+
+  .dropdown-menu a {
+    font-size: 1.1vh;
+  }
+
+  .dropdown.open .dropdown-menu {
+    max-height: 15vh;
+  }
+
+  /* Hero Section   */
+  .topLandingEssayWriter {
+    background-image: none;
+    background: linear-gradient(112.42deg, #060606 39.45%, #030341 85.53%);
+  }
+
+  .topLandingEssayWriterMain {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  .topLandingEssayWriterMainLeft {
+    width: 100%;
+  }
+
+  .topLandingEssayWriterMainLeft h1 {
+    font-family: Raleway;
+    font-size: 4.5vh;
+    font-weight: 700;
+    line-height: 5.1vh;
+    letter-spacing: -0.24000000953674316vh;
+    text-align: left;
+  }
+
+  .topLandingEssayWriterMainLeft h1 span {
+    color: var(--secondaryBlue);
+  }
+
+  .downloadOurApps {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 1lvh;
+    position: relative;
+    z-index: 8;
+  }
+
+  .appStore img {
+    width: 12.5vh;
+    height: auto;
+  }
+
+  .playStore img {
+    width: 12.5vh;
+    height: auto;
+  }
+
+  .millionDownloads img {
+    width: 31vh;
+    height: auto;
+    margin-top: 3vh;
+    position: relative;
+    z-index: 8;
+  }
+
+  .topLandingEssayWriterMainRight {
+    width: 100%;
+  }
+
+  .appShowCase img {
+    width: 52%;
+    height: auto;
+    margin-left: 48%;
+    position: relative;
+    z-index: 8;
+    margin-top: 3vh;
+  }
+
+  /* User Auto Swiper   */
+  .mySwiper1 {
+    position: absolute !important;
+    top: 52%;
+    left: -20%;
+    z-index: 1;
+    width: 98% !important;
+  }
+
+  .mySwiper1 .swiper-slide {
+    transition: all 0.5s ease;
+    opacity: 0.1;
+    box-shadow: none;
+  }
+
+  .mySwiper1 .swiper-slide-active {
+    opacity: 1;
+  }
+
+  .UserReviewCard1 {
+    width: 100%;
+    height: auto;
+    background-color: #19191991;
+    border-radius: 1vh;
+    padding: 1vh 1vh;
+    position: relative;
+    margin-bottom: 1.9vh;
+  }
+
+  .UserReviewCard1 img {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    margin-left: 75%;
+  }
+
+  .UserReviewCard1 p {
+    font-family: Poppins;
+    font-size: 0.55vh;
+    font-weight: 600;
+    line-height: 1vh;
+    text-align: left;
+  }
+
+  .userReviewSecondPara1 {
+    font-weight: 500 !important;
+    margin-top: 0.5vh;
+    height: 9vh;
+  }
+
+  .borderBottomUser1 {
+    border-bottom: 0.15vh solid#F0F2F6;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+
+  .dateAndDownload1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dateAndDownload1 h5 {
+    font-family: Poppins;
+    font-size: 0.5vh;
+    font-weight: 400;
+    line-height: 1.7vh;
+    text-align: left;
+    color: #ffffffba;
+  }
+
+  /* About Section  */
+  .essayWriterAboutMain {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column-reverse;
+    padding-top: 2vh;
+    align-items: center;
+  }
+
+  .essayWriterAboutLeft {
+    width: 100%;
+  }
+
+  .essayWriterAboutLeft img {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 2vh;
+  }
+
+  .essayWriterAboutRight {
+    width: 100%;
+  }
+
+  .essayWriterAboutRight h4 {
+    font-family: Poppins;
+    font-size: 2.8vh;
+    font-weight: 600;
+    line-height: 3.5vh;
+    letter-spacing: 0.05vh;
+    text-align: left;
+  }
+
+  .essayWriterAboutRight p {
+    font-family: Poppins;
+    font-size: 1.3vh;
+    font-weight: 500;
+    line-height: 2.4vh;
+    text-align: left;
+    margin-top: 2vh;
+    padding-right: 0vh;
+  }
+
+  .essayWriterAboutBottom {
+    width: 100%;
+    height: auto;
+    background-image: url(assets/images/abountBottomBG.png);
+    padding: 5vw 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Tabs Section  */
+
+  .essayWriterTabsSection {
+    width: 100%;
+    height: auto;
+    background-image: url(assets/images/TabsBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .essayessayWriterTabsMain {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 5vh;
+  }
+
+  .essayTabsHeading {
+    font-family: Poppins;
+    font-size: 3.3vh;
+    font-weight: 600;
+    padding: 2vh 1vh;
+    border-radius: 1.2vh;
+    text-align: center;
+    background-color: #494949;
+  }
+
+  .essayTabsHeading span {
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 0%, #4f8ef5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .essayTabsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    gap: 2vh;
+  }
+
+  .essayTab {
+    font-family: Poppins;
+    font-size: 1.3vh;
+    font-weight: 600;
+    line-height: 2vh;
+    text-align: left;
+    padding: 1vw 2vw;
+    background-color: var(--black);
+    color: var(--primaryWhite);
+    border: 0.2vw solid var(--primaryWhite);
+    border-radius: 0.8vh;
+    cursor: pointer;
+  }
+
+  .essayTab.active {
+    background-color: var(--primaryWhite);
+    color: var(--black);
+    border: 0.2vw solid var(--black);
+  }
+
+  .essayContent {
+    margin-top: 2vh;
+    font-size: 1.2vh;
+    font-family: Poppins;
+    opacity: 0;
+    position: absolute;
+    display: none;
+    transition: opacity 0.5s ease;
+  }
+
+  .essayContent.active {
+    opacity: 1;
+    position: relative;
+  }
+
+  .essayTabsCardsContainer {
+    padding-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 5%;
+  }
+
+  .essayTabsCards {
+    width: 47%;
+    height: auto;
+    background-color: #32323391;
+    border-radius: 1.5vh;
+    padding: 2vh 1vh;
+    padding-top: 6vh;
+    position: relative;
+    margin-bottom: 5vh;
+  }
+
+  .essayTabsCards img {
+    position: absolute;
+    width: 35%;
+    top: -15%;
+    left: 34%;
+  }
+
+  .essayTabsCards h3 {
+    font-family: Poppins;
+    font-size: 1.35vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    margin-left: 1vh;
+  }
+
+  .essayTabsCards ul {
+    margin-left: 2vh;
+    margin-top: 1vh;
+    height: 9vh;
+  }
+
+  .essayTabsCards ul li {
+    font-family: Poppins;
+    font-size: 1vh;
+    font-weight: 400;
+    line-height: 1.8vh;
+    text-align: left;
+  }
+
+  /* User Review Section  */
+
+  .essayWriterUserReviewSection {
+    width: 100%;
+    height: auto;
+    background-image: url(assets/images/userReviewBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .essayWriterUserReviewMain {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 1vh;
+  }
+
+  .essayWriterUserReviewMainHead {
+    text-align: center;
+  }
+
+  .essayWriterUserReviewMainHead p {
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 1.5vh;
+    letter-spacing: -0.07000000029802322px;
+  }
+
+  .essayWriterUserReviewMainHead h2 {
+    font-family: Poppins;
+    font-size: 2.8vh;
+    font-weight: 600;
+    line-height: 2vh;
+    letter-spacing: 0.1vh;
+    margin-top: 1.8vh;
+    text-align: center;
+  }
+
+  .essayWriterUserReviewCards {
+    padding-top: 6vh;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
     gap: 4%;
-}
+  }
 
-.UserReviewCard {
-    width: 30%;
+  .UserReviewCard {
+    width: 47%;
     height: auto;
     background-color: #32323391;
-    border-radius: 1vw;
-    padding: 2vw 1vw;
-    padding-bottom: 1vw;
+    border-radius: 1vh;
+    padding: 2vh 1vh;
+    padding-bottom: 1vh;
     position: relative;
-    margin-bottom: 1.9vw;
-}
+    margin-bottom: 1.9vh;
+  }
 
-.UserReviewCard img {
+  .UserReviewCard img {
     display: flex;
     justify-content: flex-end;
     width: 32%;
     margin-left: 68%;
-}
+  }
 
-.UserReviewCard p {
+  .UserReviewCard p {
     font-family: Poppins;
-    font-size: 1.04vw;
+    font-size: 0.8vh;
     font-weight: 600;
-    line-height: 1.6vw;
+    line-height: 1.6vh;
     text-align: left;
-    margin-top: 0.5vw;
-}
+  }
 
-.userReviewSecondPara {
+  .userReviewSecondPara {
     font-weight: 500 !important;
-    margin-top: 0.5vw;
-    height: 22vh;
-}
+    margin-top: 0.5vh;
+    height: auto;
+  }
 
-.borderBottomUser {
-    border-bottom: 0.15vw solid#F0F2F6;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-}
+  .borderBottomUser {
+    border-bottom: 0.15vh solid#F0F2F6;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
 
-.dateAndDownload {
+  .dateAndDownload {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-.dateAndDownload h5 {
+  .dateAndDownload h5 {
     font-family: Poppins;
-    font-size: 0.95vw;
+    font-size: 0.6vh;
     font-weight: 400;
-    line-height: 1.7vw;
+    line-height: 1.7vh;
     text-align: left;
     color: #ffffffba;
-}
+  }
 
+  /* FAQS Section  */
 
-/* FAQS Section  */
-
-
-.emailEssayWriterMain {
+  .emailEssayWriterMain {
     background-color: #18181d;
     width: 100%;
     height: auto;
-}
+  }
 
-.emailEssayWriterHead {
+  .emailEssayWriterHead {
     text-align: center;
-    padding: 4vw 0vw;
-    padding-bottom: 6vw;
-}
+    padding: 4vh 0vh;
+    padding-bottom: 4vh;
+  }
 
-.emailEssayWriterHead h2 {
-    font-size: 3.2vw;
+  .emailEssayWriterHead h2 {
+    font-size: 2.8vh;
     font-weight: 600;
-    line-height: 4vw;
-    width: 50%;
-    margin: auto;
-}
-
-.emailEssayWriterMainAccordian {
+    line-height: 4vh;
     width: 90%;
     margin: auto;
-    padding-bottom: 5vw;
-}
+  }
 
-.accordion {
+  .emailEssayWriterMainAccordian {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5vh;
+  }
+
+  .accordion {
     max-width: 100%;
     overflow: hidden;
-}
+  }
 
-.accordion-item {
-    border-bottom: 0.1vw solid #7A7E82;
-}
+  .accordion-item {
+    border-bottom: 0.1vh solid #7a7e82;
+  }
 
-.accordion-header {
+  .accordion-header {
     display: flex;
     justify-content: space-between;
-    padding: 1vw 0vw;
-    padding-left: 1.2vw;
+    padding: 1.5vh 0vh;
+    padding-left: 1.2vh;
     cursor: pointer;
-}
+  }
 
-.accordion-header h3 {
-    font-size: 1.5vw;
+  .accordion-header h3 {
+    font-size: 1.5vh;
     font-weight: 600;
-    line-height: 2vw;
+    line-height: 2vh;
     text-align: left;
+  }
 
-}
-
-.accordion-header i {
-    font-size: 1.5vw;
+  .accordion-header i {
+    font-size: 1.5vh;
     transition: transform 0.3s ease;
-}
+  }
 
-.accordion-content {
+  .accordion-content {
     display: grid;
     grid-template-rows: 1fr;
     height: 0;
     overflow: hidden;
-    padding: 0 2vw;
-    font-size: 1.13vw;
+    padding: 0 2vh;
+    font-size: 1.5vh;
     transition: height 0.5s ease, padding 0.3s ease;
-}
+  }
 
-.accordion-item.active .accordion-content {
+  .accordion-item.active .accordion-content {
     height: auto;
-    padding: 1vw 1.2vw;
-}
+    padding: 1.5vh 2vh;
+  }
 
-.accordion-item.active .accordion-header i {
+  .accordion-item.active .accordion-header i {
     transform: rotate(-180deg);
-}
+  }
 
-
-
-/* Download Our Apps  */
-.essayWriterDownloadApp {
+  /* Download Our Apps  */
+  .essayWriterDownloadApp {
     width: 100%;
     height: auto;
     background-color: #1e1f24;
-    padding-bottom: 5vw;
-}
+    padding-bottom: 3vh;
+  }
 
-.essayWriterDownloadBG {
-    width: 90%;
+  .essayWriterDownloadBG {
+    width: 100%;
     height: auto;
     margin: auto;
-    background-image: url(/assets/images/downloadAPPBG.png);
-    border-radius: 1vw;
+    background-image: url(assets/images/downloadAPPBG.png);
+    border-radius: 0;
     background-size: cover;
     position: relative;
-}
+  }
 
-.essayWriterDownloadBG h2 {
+  .essayWriterDownloadBG h2 {
     font-family: Poppins;
-    font-size: 3.4vw;
+    font-size: 2.5vh;
     font-weight: 600;
-    line-height: 4vw;
+    line-height: 4vh;
     letter-spacing: 2px;
     text-align: center;
-    padding-top: 3.5vw;
-}
+    padding-top: 3.5vh;
+  }
 
-.downloadPicMobile img {
-    width: 30%;
-    margin-left: 30%;
+  .downloadPicMobile img {
+    width: 45%;
+    margin-left: 14%;
     margin-top: 6%;
-}
+  }
 
-.qrCodeIos {
+  .qrCodeIos {
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 63%;
     display: flex;
     flex-direction: column;
-    gap: 1vw;
-}
+  }
 
-.qrAndroid h1 {
+  .qrAndroid h1 {
     font-family: Poppins;
-    font-size: 1.1vw;
+    font-size: 1.1vh;
     font-weight: 600;
-    line-height: 2vw;
+    line-height: 2vh;
     text-align: left;
-}
+  }
 
-.qrAndroid img {
-    width: 13vw;
+  .qrAndroid img {
+    width: 12vh;
     height: auto;
-    margin-top: 0.7vw;
-}
+    margin-top: 1vh;
+  }
 
+  /* Footer Section  */
 
-/* Footer Section  */
-
-.footerMain {
+  .footerMain {
     background-color: #040404;
     width: 100%;
     height: auto;
-    padding-bottom: 1.2vw;
-}
+    padding-bottom: 1.2vh;
+  }
 
-.footerMainContainer {
+  .footerMainContainer {
     width: 90%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-top: 1vw;
-}
+    padding-top: 1vh;
+  }
 
-.footerLogo {
-    width: 20%;
+  .footerLogo {
+    width: 100%;
     display: flex;
     align-items: center;
-}
+  }
 
-.footerLogo img {
-    width: 50%;
-}
+  .footerLogo img {
+    width: 20%;
+  }
 
-.footerLogo span {
+  .footerLogo span {
     font-family: Raleway;
-    font-size: 2.1vw;
+    font-size: 3.5vh;
     font-weight: 700;
-    line-height: 2.5vw;
+    line-height: 2.5vh;
     letter-spacing: -2.4000000953674316px;
     text-align: left;
-}
+  }
 
-.footerPoints {
+  .footerPoints {
     display: flex;
-    gap: 5vw;
-    justify-content: flex-end;
+    gap: 1vh;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
-    width: 80%;
-}
+    width: 100%;
+  }
 
-.footerPoints p {
+  .footerPoints p {
     font-family: Poppins;
-    font-size: 1.04vw;
-    font-weight: 400;
-    line-height: 1.8vw;
-    letter-spacing: -0.06vw;
+    font-size: 1.55vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+    letter-spacing: -0.06vh;
     text-align: center;
+    width: 26%;
+    margin-left: 1%;
+    margin-top: 7%;
+  }
 
-}
-
-.footerPoints p a {
+  .footerPoints p a {
     text-decoration: none;
+    margin-left: 0vh;
+  }
 
-}
-
-.footerTermsAndPrivacy {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    margin-left: 8.5vw;
-}
-
-.footerTermsAndPrivacy p {
-    font-family: Poppins;
-    font-size: 1.04vw;
-    font-weight: 400;
-    line-height: 1.8vw;
-    letter-spacing: -0.06vw;
-    text-align: center;
-}
-
-.footerTermsAndPrivacy i {
-    font-size: 0.2vw;
-}
-
-.footerTermsAndPrivacy p a {
-    text-decoration: none;
-    margin-left: 0vw;
-}
-
-
-.footerBorder {
-    border-bottom: 0.15vw solid #ADADAD63;
+  .footerTermsAndPrivacy {
     width: 90%;
     margin: auto;
-    margin-top: 0.5vw;
-}
-
-.footerBottom {
-    width: 90%;
     display: flex;
-    margin: auto;
-    justify-content: space-between;
-    margin-top: 1.4vw;
     align-items: center;
-}
+    gap: 2vh;
+    margin-left: 2.5vh;
+    margin-bottom: 1.5vh;
+  }
 
-.footercopyrights p {
+  .footerTermsAndPrivacy p {
     font-family: Poppins;
-    font-size: 0.95vw;
+    font-size: 1.55vh;
     font-weight: 400;
-    line-height: 1.4vw;
-    text-align: left;
-}
+    width: auto;
+    line-height: 1.8vh;
+    letter-spacing: -0.06vh;
+    text-align: center;
+    margin-left: 0%;
+  }
 
-.footerContact {
+  .footerTermsAndPrivacy i {
+    font-size: 0.4vh;
+    margin-top: 7%;
+  }
+
+  .footerTermsAndPrivacy p a {
+    text-decoration: none;
+    margin-left: 0vh;
+  }
+
+  .footerBorder {
+    border-bottom: 0.2vh solid #adadad8b;
+    width: 90%;
+    margin-left: 0;
+    margin: auto;
+  }
+
+  .footerBottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    gap: 3vh;
+  }
+
+  .footercopyrights p {
+    font-family: Poppins;
+    font-size: 1.1vh;
+    font-weight: 400;
+    line-height: 1.4vh;
+    text-align: center !important;
+    padding-left: 10vh;
+  }
+
+  .footerContact {
     display: flex;
     align-items: center;
-    gap: 1vw;
-}
+    gap: 3vh;
+    padding-left: 3vh;
+  }
 
-.footerContact p {
-    font-size: 1vw;
+  .footerContact p {
+    font-size: 1.1vh;
     font-weight: 400;
     line-height: 1.4vw;
     margin: 0;
-}
+  }
 
-.footerContact p a {
-    text-decoration: none;
-}
-
-.socialIcons {
+  .socialIcons {
     display: flex;
     align-items: center;
-    gap: 1.2vw;
-}
+    gap: 2vh;
+  }
 
-.socialIcons a {
+  .socialIcons a {
     color: white;
-    font-size: 1.4vw;
+    font-size: 2.2vh;
     text-decoration: none;
-}
+  }
 
+  /* Privacy Page And Terms page */
 
-.mySwiper1 {
-    position: absolute !important;
-    top: 58%;
-    left: 24%;
-    z-index: 1;
-    width: 50% !important;
-}
-
-.mySwiper1 .swiper-slide {
-    transition: all 0.5s ease;
-    opacity: 0.1;
-    box-shadow: none;
-    /* width: 108% !important; */
-}
-
-.mySwiper1 .swiper-slide-active {
-    opacity: 1;
-}
-
-.UserReviewCard1 {
-    width: 100%;
-    height: auto;
-    background-color: #19191991;
-    border-radius: 1vw;
-    padding: 1vw 1vw;
-    position: relative;
-    margin-bottom: 1.9vw;
-}
-
-.UserReviewCard1 img {
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    margin-left: 75%;
-
-}
-
-.UserReviewCard1 p {
-    font-family: Poppins;
-    font-size: 0.55vw;
-    font-weight: 600;
-    line-height: 1vw;
-    text-align: left;
-
-}
-
-.userReviewSecondPara1 {
-    font-weight: 500 !important;
-    margin-top: 0.5vw;
-    height: 16vh;
-}
-
-.borderBottomUser1 {
-    border-bottom: 0.15vw solid#F0F2F6;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-}
-
-.dateAndDownload1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.dateAndDownload1 h5 {
-    font-family: Poppins;
-    font-size: 0.5vw;
-    font-weight: 400;
-    line-height: 1.7vw;
-    text-align: left;
-    color: #ffffffba;
-}
-
-
-
-/* Privacy Page And Terms page */
-
-.HeroPrivacy {
-    background: url("/assets/images/privacyTermsBG.png");
+  .HeroPrivacy {
+    background: url("assets/Images/privacyTermsBG.png");
     background-size: cover;
     height: auto;
     width: 100%;
-    padding-top: 0vw;
-}
+    padding-top: 0vh;
+  }
 
-.privacyPolicy {
+  .privacyPolicy {
     width: 90%;
     margin: auto;
-    padding-top: 8vw;
-}
+    padding-top: 8vh;
+  }
 
-.privacyPolicy h2 {
-    font-size: 3vw;
+  .privacyPolicy h2 {
+    font-size: 3vh;
     font-weight: 600;
-    line-height: 3.7vw;
+    line-height: 3.7vh;
     text-align: center;
-}
+  }
 
-.privacyPolicyMain {
-    padding-top: 5vw;
-    padding-bottom: 3vw;
-}
+  .privacyPolicyMain {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
 
-.privacyPolicyMain h5 {
-    font-size: 1.58vw;
+  .privacyPolicyMain h5 {
+    font-size: 1.58vh;
     font-weight: 500;
-    line-height: 2vw;
+    line-height: 2vh;
     text-align: left;
-    margin-bottom: 2vw;
-}
+    margin-bottom: 2vh;
+  }
 
-.privacyPolicyMain h6 {
-    font-size: 1.32vw;
+  .privacyPolicyMain h6 {
+    font-size: 1.32vh;
     font-weight: 500;
-    line-height: 2vw;
+    line-height: 2vh;
     text-align: left;
-    margin-bottom: 2vw;
-}
+    margin-bottom: 2vh;
+  }
 
-.privacyPolicyMain p {
-    font-size: 1.08vw;
+  .privacyPolicyMain p {
+    font-size: 1.08vh;
     font-weight: 400;
-    line-height: 2vw;
+    line-height: 2vh;
     text-align: left;
-    margin-bottom: 2vw;
-}
+    margin-bottom: 2vh;
+  }
 
-.privacyPolicyMain p span {
-    color: aqua;
-}
+  /* Black Friday Discounts */
 
-
-
-
-
-/* Hide nav links and button in mobile view */
-@media screen and (max-width: 768px) {
-
-    .navbar {
-        width: 100%;
-        padding: 1vh 1.5vh;
-        padding-bottom: 0.5vh;
-        border-bottom: 0.15vh solid #6B6B7873;
-    }
-
-    .navbar-container {
-        width: 100%;
-    }
-
-    .logo {
-        display: flex;
-        align-items: center;
-        color: var(--primaryWhite);
-    }
-
-    .logo img {
-        width: 6vh;
-        height: auto;
-        margin-left: 0.5vh;
-    }
-
-    .logo span {
-        font-size: 2vh;
-        font-weight: 600;
-        line-height: 0.1vh;
-        letter-spacing: 0.03vh;
-        text-align: left;
-        margin-bottom: 0.5vh;
-
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 7.5vh;
-        left: 3vh;
-        background-color: black;
-        width: 90%;
-        height: auto;
-        padding: 2vh;
-        border-radius: 1vh;
-        z-index: 66;
-        gap: 0.7vh;
-        text-align: center;
-    }
-
-    .get-app-btn1 {
-        padding: 0.5vh 0.7vh;
-        font-size: 1.2vh;
-        border-radius: 0.5vh;
-    }
-
-    .nav-links li {
-        margin-bottom: 3vw;
-    }
-
-    .nav-links a {
-        font-size: 1.5vh;
-        font-weight: 400;
-        line-height: 1.4vh;
-        text-align: left;
-
-    }
-
-    .nav-links span {
-        font-size: 1.2vh;
-    }
-
-    .get-app-btn {
-        display: none;
-    }
-
-    #Mobile {
-        display: block;
-    }
-
-
-    .menu-toggle {
-        display: block;
-    }
-
-    /* Dropdown styling */
-    .dropdown {
-        position: relative;
-    }
-
-    .dropdown-menu {
-        position: absolute;
-        top: 100%;
-        left: 20%;
-        padding: 1vh 0.5vh;
-        background-color: #414141;
-        opacity: 0;
-        max-height: 0;
-        width: 60%;
-        border-radius: 0.5vh;
-        margin-top: 1vh;
-        z-index: 2;
-    }
-
-    .dropdown-menu li {
-        margin-bottom: 1vh;
-        text-align: center;
-    }
-
-    .dropdown-menu li:last-child {
-        margin-bottom: 0vh;
-    }
-
-    .dropdown-menu a {
-        font-size: 1.1vh;
-    }
-
-    .dropdown.open .dropdown-menu {
-        max-height: 15vh;
-    }
-
-
-
-    /* Hero Section   */
-    .topLandingEssayWriter {
-        background-image: none;
-        background: linear-gradient(112.42deg, #060606 39.45%, #030341 85.53%);
-    }
-
-    .topLandingEssayWriterMain {
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        padding-top: 5vh;
-        padding-bottom: 3vh;
-    }
-
-    .topLandingEssayWriterMainLeft {
-        width: 100%;
-
-    }
-
-    .topLandingEssayWriterMainLeft h1 {
-        font-family: Raleway;
-        font-size: 4.5vh;
-        font-weight: 700;
-        line-height: 5.1vh;
-        letter-spacing: -0.24000000953674316vh;
-        text-align: left;
-    }
-
-    .topLandingEssayWriterMainLeft h1 span {
-        color: var(--secondaryBlue);
-    }
-
-    .downloadOurApps {
-        display: flex;
-        align-items: center;
-        gap: 1vh;
-        margin-top: 1lvh;
-        position: relative;
-        z-index: 8;
-    }
-
-    .appStore img {
-        width: 12.5vh;
-        height: auto;
-    }
-
-    .playStore img {
-        width: 12.5vh;
-        height: auto;
-    }
-
-    .millionDownloads img {
-        width: 31vh;
-        height: auto;
-        margin-top: 3vh;
-        position: relative;
-        z-index: 8;
-    }
-
-    .topLandingEssayWriterMainRight {
-        width: 100%;
-    }
-
-    .appShowCase img {
-        width: 52%;
-        height: auto;
-        margin-left: 48%;
-        position: relative;
-        z-index: 8;
-        margin-top: 3vh;
-    }
-
-
-
-    /* User Auto Swiper   */
-    .mySwiper1 {
-        position: absolute !important;
-        top: 52%;
-        left: -20%;
-        z-index: 1;
-        width: 98% !important;
-    }
-
-    .mySwiper1 .swiper-slide {
-        transition: all 0.5s ease;
-        opacity: 0.1;
-        box-shadow: none;
-    }
-
-    .mySwiper1 .swiper-slide-active {
-        opacity: 1;
-    }
-
-    .UserReviewCard1 {
-        width: 100%;
-        height: auto;
-        background-color: #19191991;
-        border-radius: 1vh;
-        padding: 1vh 1vh;
-        position: relative;
-        margin-bottom: 1.9vh;
-    }
-
-    .UserReviewCard1 img {
-        display: flex;
-        justify-content: flex-end;
-        width: 25%;
-        margin-left: 75%;
-
-    }
-
-    .UserReviewCard1 p {
-        font-family: Poppins;
-        font-size: 0.55vh;
-        font-weight: 600;
-        line-height: 1vh;
-        text-align: left;
-    }
-
-    .userReviewSecondPara1 {
-        font-weight: 500 !important;
-        margin-top: 0.5vh;
-        height: 9vh;
-    }
-
-    .borderBottomUser1 {
-        border-bottom: 0.15vh solid#F0F2F6;
-        margin-top: 0.5vh;
-        margin-bottom: 0.5vh;
-    }
-
-    .dateAndDownload1 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .dateAndDownload1 h5 {
-        font-family: Poppins;
-        font-size: 0.5vh;
-        font-weight: 400;
-        line-height: 1.7vh;
-        text-align: left;
-        color: #ffffffba;
-    }
-
-
-
-
-
-
-
-    /* About Section  */
-    .essayWriterAboutMain {
-        width: 90%;
-        height: auto;
-        display: flex;
-        margin: auto;
-        flex-direction: column-reverse;
-        padding-top: 2vh;
-        align-items: center;
-    }
-
-    .essayWriterAboutLeft {
-        width: 100%;
-    }
-
-    .essayWriterAboutLeft img {
-        width: 60%;
-        height: auto;
-        margin-left: 20%;
-        margin-top: 2vh;
-    }
-
-    .essayWriterAboutRight {
-        width: 100%;
-    }
-
-    .essayWriterAboutRight h4 {
-        font-family: Poppins;
-        font-size: 2.8vh;
-        font-weight: 600;
-        line-height: 3.5vh;
-        letter-spacing: 0.05vh;
-        text-align: left;
-    }
-
-    .essayWriterAboutRight p {
-        font-family: Poppins;
-        font-size: 1.3vh;
-        font-weight: 500;
-        line-height: 2.4vh;
-        text-align: left;
-        margin-top: 2vh;
-        padding-right: 0vh;
-
-    }
-
-    .essayWriterAboutBottom {
-        width: 100%;
-        height: auto;
-        background-image: url(/assets/images/abountBottomBG.png);
-        padding: 5vw 0vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    /* Tabs Section  */
-
-    .essayWriterTabsSection {
-        width: 100%;
-        height: auto;
-        background-image: url(/assets/images/TabsBG.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .essayessayWriterTabsMain {
-        width: 90%;
-        height: auto;
-        margin: auto;
-        padding-top: 5vh;
-    }
-
-    .essayTabsHeading {
-        font-family: Poppins;
-        font-size: 3.3vh;
-        font-weight: 600;
-        padding: 2vh 1vh;
-        border-radius: 1.2vh;
-        text-align: center;
-        background-color: #494949;
-    }
-
-    .essayTabsHeading span {
-        background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 0%, #4F8EF5 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-
-    .essayTabsContainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 3vh;
-        gap: 2vh;
-    }
-
-    .essayTab {
-        font-family: Poppins;
-        font-size: 1.3vh;
-        font-weight: 600;
-        line-height: 2vh;
-        text-align: left;
-        padding: 1vw 2vw;
-        background-color: var(--black);
-        color: var(--primaryWhite);
-        border: 0.2vw solid var(--primaryWhite);
-        border-radius: 0.8vh;
-        cursor: pointer;
-    }
-
-    .essayTab.active {
-        background-color: var(--primaryWhite);
-        color: var(--black);
-        border: 0.2vw solid var(--black);
-    }
-
-    .essayContent {
-        margin-top: 2vh;
-        font-size: 1.2vh;
-        font-family: Poppins;
-        opacity: 0;
-        position: absolute;
-        display: none;
-        transition: opacity 0.5s ease;
-    }
-
-    .essayContent.active {
-        opacity: 1;
-        position: relative;
-    }
-
-    .essayTabsCardsContainer {
-        padding-top: 6vh;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        gap: 5%;
-    }
-
-    .essayTabsCards {
-        width: 47%;
-        height: auto;
-        background-color: #32323391;
-        border-radius: 1.5vh;
-        padding: 2vh 1vh;
-        padding-top: 6vh;
-        position: relative;
-        margin-bottom: 5vh;
-    }
-
-    .essayTabsCards img {
-        position: absolute;
-        width: 35%;
-        top: -15%;
-        left: 34%;
-    }
-
-    .essayTabsCards h3 {
-        font-family: Poppins;
-        font-size: 1.35vh;
-        font-weight: 600;
-        line-height: 1.8vh;
-        margin-left: 1vh;
-    }
-
-    .essayTabsCards ul {
-        margin-left: 2vh;
-        margin-top: 1vh;
-        height: 9vh;
-    }
-
-    .essayTabsCards ul li {
-        font-family: Poppins;
-        font-size: 1vh;
-        font-weight: 400;
-        line-height: 1.8vh;
-        text-align: left;
-
-    }
-
-    /* User Review Section  */
-
-    .essayWriterUserReviewSection {
-        width: 100%;
-        height: auto;
-        background-image: url(/assets/images/userReviewBG.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .essayWriterUserReviewMain {
-        width: 90%;
-        height: auto;
-        margin: auto;
-        padding-top: 1vh;
-    }
-
-    .essayWriterUserReviewMainHead {
-        text-align: center;
-    }
-
-    .essayWriterUserReviewMainHead p {
-        font-family: Poppins;
-        font-size: 2vh;
-        font-weight: 500;
-        line-height: 1.5vh;
-        letter-spacing: -0.07000000029802322px;
-    }
-
-    .essayWriterUserReviewMainHead h2 {
-        font-family: Poppins;
-        font-size: 2.8vh;
-        font-weight: 600;
-        line-height: 2vh;
-        letter-spacing: 0.1vh;
-        margin-top: 1.8vh;
-        text-align: center;
-    }
-
-    .essayWriterUserReviewCards {
-        padding-top: 6vh;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        gap: 4%;
-    }
-
-    .UserReviewCard {
-        width: 47%;
-        height: auto;
-        background-color: #32323391;
-        border-radius: 1vh;
-        padding: 2vh 1vh;
-        padding-bottom: 1vh;
-        position: relative;
-        margin-bottom: 1.9vh;
-    }
-
-    .UserReviewCard img {
-        display: flex;
-        justify-content: flex-end;
-        width: 32%;
-        margin-left: 68%;
-    }
-
-    .UserReviewCard p {
-        font-family: Poppins;
-        font-size: 0.8vh;
-        font-weight: 600;
-        line-height: 1.6vh;
-        text-align: left;
-    }
-
-    .userReviewSecondPara {
-        font-weight: 500 !important;
-        margin-top: 0.5vh;
-        height: auto;
-    }
-
-    .borderBottomUser {
-        border-bottom: 0.15vh solid#F0F2F6;
-        margin-top: 0.5vh;
-        margin-bottom: 0.5vh;
-    }
-
-    .dateAndDownload {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .dateAndDownload h5 {
-        font-family: Poppins;
-        font-size: 0.6vh;
-        font-weight: 400;
-        line-height: 1.7vh;
-        text-align: left;
-        color: #ffffffba;
-    }
-
-
-    /* FAQS Section  */
-
-
-    .emailEssayWriterMain {
-        background-color: #18181d;
-        width: 100%;
-        height: auto;
-    }
-
-    .emailEssayWriterHead {
-        text-align: center;
-        padding: 4vh 0vh;
-        padding-bottom: 4vh;
-    }
-
-    .emailEssayWriterHead h2 {
-        font-size: 2.8vh;
-        font-weight: 600;
-        line-height: 4vh;
-        width: 90%;
-        margin: auto;
-    }
-
-    .emailEssayWriterMainAccordian {
-        width: 90%;
-        margin: auto;
-        padding-bottom: 5vh;
-    }
-
-    .accordion {
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    .accordion-item {
-        border-bottom: 0.1vh solid #7A7E82;
-    }
-
-    .accordion-header {
-        display: flex;
-        justify-content: space-between;
-        padding: 1.5vh 0vh;
-        padding-left: 1.2vh;
-        cursor: pointer;
-    }
-
-    .accordion-header h3 {
-        font-size: 1.5vh;
-        font-weight: 600;
-        line-height: 2vh;
-        text-align: left;
-
-    }
-
-    .accordion-header i {
-        font-size: 1.5vh;
-        transition: transform 0.3s ease;
-    }
-
-    .accordion-content {
-        display: grid;
-        grid-template-rows: 1fr;
-        height: 0;
-        overflow: hidden;
-        padding: 0 2vh;
-        font-size: 1.5vh;
-        transition: height 0.5s ease, padding 0.3s ease;
-    }
-
-    .accordion-item.active .accordion-content {
-        height: auto;
-        padding: 1.5vh 2vh;
-    }
-
-    .accordion-item.active .accordion-header i {
-        transform: rotate(-180deg);
-    }
-
-
-    /* Download Our Apps  */
-    .essayWriterDownloadApp {
-        width: 100%;
-        height: auto;
-        background-color: #1e1f24;
-        padding-bottom: 3vh;
-    }
-
-    .essayWriterDownloadBG {
-        width: 100%;
-        height: auto;
-        margin: auto;
-        background-image: url(/assets/images/downloadAPPBG.png);
-        border-radius: 0;
-        background-size: cover;
-        position: relative;
-    }
-
-    .essayWriterDownloadBG h2 {
-        font-family: Poppins;
-        font-size: 2.5vh;
-        font-weight: 600;
-        line-height: 4vh;
-        letter-spacing: 2px;
-        text-align: center;
-        padding-top: 3.5vh;
-    }
-
-    .downloadPicMobile img {
-        width: 45%;
-        margin-left: 14%;
-        margin-top: 6%;
-    }
-
-    .qrCodeIos {
-        position: absolute;
-        top: 49%;
-        left: 63%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .qrAndroid h1 {
-        font-family: Poppins;
-        font-size: 1.1vh;
-        font-weight: 600;
-        line-height: 2vh;
-        text-align: left;
-    }
-
-    .qrAndroid img {
-        width: 12vh;
-        height: auto;
-        margin-top: 1vh;
-    }
-
-    /* Footer Section  */
-
-    .footerMain {
-        background-color: #040404;
-        width: 100%;
-        height: auto;
-        padding-bottom: 1.2vh;
-    }
-
-    .footerMainContainer {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 1vh;
-    }
-
-    .footerLogo {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .footerLogo img {
-        width: 20%;
-    }
-
-    .footerLogo span {
-        font-family: Raleway;
-        font-size: 3.5vh;
-        font-weight: 700;
-        line-height: 2.5vh;
-        letter-spacing: -2.4000000953674316px;
-        text-align: left;
-    }
-
-    .footerPoints {
-        display: flex;
-        gap: 1vh;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 100%;
-    }
-
-    .footerPoints p {
-        font-family: Poppins;
-        font-size: 1.55vh;
-        font-weight: 500;
-        line-height: 1.8vh;
-        letter-spacing: -0.06vh;
-        text-align: center;
-        width: 26%;
-        margin-left: 1%;
-        margin-top: 7%;
-
-    }
-
-    .footerPoints p a {
-        text-decoration: none;
-        margin-left: 0vh;
-
-    }
-
-    .footerTermsAndPrivacy {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        gap: 2vh;
-        margin-left: 2.5vh;
-        margin-bottom: 1.5vh;
-    }
-
-    .footerTermsAndPrivacy p {
-        font-family: Poppins;
-        font-size: 1.55vh;
-        font-weight: 400;
-        width: auto;
-        line-height: 1.8vh;
-        letter-spacing: -0.06vh;
-        text-align: center;
-        margin-left: 0%;
-    }
-
-    .footerTermsAndPrivacy i {
-        font-size: 0.4vh;
-        margin-top: 7%;
-
-    }
-
-    .footerTermsAndPrivacy p a {
-        text-decoration: none;
-        margin-left: 0vh;
-    }
-
-    .footerBorder {
-        border-bottom: 0.2vh solid #adadad8b;
-        width: 90%;
-        margin-left: 0;
-        margin: auto;
-    }
-
-    .footerBottom {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: start;
-        margin-top: 1.5vh;
-        margin-bottom: 1.5vh;
-        gap: 3vh;
-    }
-
-    .footercopyrights p {
-        font-family: Poppins;
-        font-size: 1.1vh;
-        font-weight: 400;
-        line-height: 1.4vh;
-        text-align: center !important;
-        padding-left: 10vh;
-    }
-
-    .footerContact {
-        display: flex;
-        align-items: center;
-        gap: 3vh;
-        padding-left: 3vh;
-    }
-
-    .footerContact p {
-        font-size: 1.1vh;
-        font-weight: 400;
-        line-height: 1.4vw;
-        margin: 0;
-    }
-
-    .socialIcons {
-        display: flex;
-        align-items: center;
-        gap: 2vh;
-    }
-
-    .socialIcons a {
-        color: white;
-        font-size: 2.2vh;
-        text-decoration: none;
-    }
-
-    /* Privacy Page And Terms page */
-
-    .HeroPrivacy {
-        background: url("/Assets/Images/privacyTermsBG.png");
-        background-size: cover;
-        height: auto;
-        width: 100%;
-        padding-top: 0vh;
-    }
-
-    .privacyPolicy {
-        width: 90%;
-        margin: auto;
-        padding-top: 8vh;
-    }
-
-    .privacyPolicy h2 {
-        font-size: 3vh;
-        font-weight: 600;
-        line-height: 3.7vh;
-        text-align: center;
-    }
-
-    .privacyPolicyMain {
-        padding-top: 5vh;
-        padding-bottom: 3vh;
-    }
-
-    .privacyPolicyMain h5 {
-        font-size: 1.58vh;
-        font-weight: 500;
-        line-height: 2vh;
-        text-align: left;
-        margin-bottom: 2vh;
-    }
-
-    .privacyPolicyMain h6 {
-        font-size: 1.32vh;
-        font-weight: 500;
-        line-height: 2vh;
-        text-align: left;
-        margin-bottom: 2vh;
-    }
-
-    .privacyPolicyMain p {
-        font-size: 1.08vh;
-        font-weight: 400;
-        line-height: 2vh;
-        text-align: left;
-        margin-bottom: 2vh;
-    }
-
-    /* Black Friday Discounts */
-
-    /* .topLandingEssayWriterMain .off50 {
+  /* .topLandingEssayWriterMain .off50 {
         position: absolute;
         width: 10vh;
         left: 81.5%;
