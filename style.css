@@ -230,7 +230,7 @@ html {
 .topLandingEssayWriter {
   width: 100%;
   height: auto;
-  background-image: url(.assets/images/Section1BG.png);
+  background-image: url(assets/images/Section1BG.png);
   background-size: cover;
 }
 
@@ -1038,7 +1038,7 @@ html {
 /* Privacy Page And Terms page */
 
 .HeroPrivacy {
-  background: url("assets/images/privacyTermsBG.png");
+  background: url(assets/images/privacyTermsBG.png);
   background-size: cover;
   height: auto;
   width: 100%;
